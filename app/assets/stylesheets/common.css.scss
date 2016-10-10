@@ -28,13 +28,29 @@ div ul li a{
   color:white;
 }
 
-.btn {
+.nav-btn {
   border-radius: 4px;
   margin-top: 10px;
   border: 1px solid white;
   font-weight: 800;
   font-size: 24px;
   margin-right:10px;
+}
+
+.signup-btn{
+  border-radius: 4px;
+  border: 1px solid white;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.title{
+  padding-left: 20px;
+}
+
+form{
+  padding-left: 20px;
+  padding-right: 20px;
 }
 footer {
   margin-top: 50px;
