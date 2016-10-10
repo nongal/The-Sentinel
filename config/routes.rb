@@ -4,7 +4,15 @@ Rails.application.routes.draw do
   end
   resources :comments
   resources :posts
-  root 'posts#index'
+  get '/politics' => 'pages#politics'
+  get '/opinions' => 'pages#opinions'
+  get '/sports' => 'pages#sports'
+  get '/local' => 'pages#local'
+  get '/national' => 'pages#national'
+  get '/world' => 'pages#world'
+  get '/business' => 'pages#business'
+  get '/tech' => 'pages#tech'
+  root 'pages#home'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
