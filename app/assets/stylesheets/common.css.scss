@@ -1,3 +1,7 @@
+body {
+
+}
+
 input[type="submit"] {
   @include button;
 }
@@ -7,7 +11,30 @@ div#main {
 }
 
 .top-bar{
-  
+  background-color: black;
+}
+
+div ul li{
+  background-color: black;
+}
+
+div ul li a{
+  color: white;
+}
+
+.menu-text{
+  font-size: 35px;
+  font-family: tohoma;
+  color:white;
+}
+
+.btn {
+  border-radius: 4px;
+  margin-top: 10px;
+  border: 1px solid white;
+  font-weight: 800;
+  font-size: 24px;
+  margin-right:10px;
 }
 footer {
   margin-top: 50px;
