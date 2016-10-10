@@ -12,6 +12,9 @@ group :production do
   gem 'rails_12factor'
 end
 
+#User Authentication
+gem 'devise'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 gem 'foundation-rails'
